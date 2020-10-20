@@ -1,5 +1,40 @@
-//alert("Sitio web ISP20 cargando");
-
+$(document).ready(
+	function ()
+	{
+        $("#contenedorPagina").fadeIn(6000);
+        $("#menuStaFe").bind("click",mostrarSantaFe);
+        $("#menuBsAs").bind("click",mostrarBuenosAires);
+        $("#menuSantiago").bind("click",mostrarSantiago);
+        $("#menuInicio").bind("click",mostrarInicio);
+        //$("#enlacetecnologia").bind("click",mostrarTecnologia);
+        //$("#enlacepea").bind("click",mostrarPea);
+        //$(".volver").bind("click",mostrarPlanDeEstudio);
+	}
+);
+function mostrarSantaFe(){
+    $("#contenedorPagina").hide(1500);
+    $("#divBsAs").hide(1500);
+    $("#divSantiago").hide(1500);
+    $("#divStaFe").show(3000);
+}
+function mostrarBuenosAires(){
+    $("#contenedorPagina").hide(1500);
+    $("#divStaFe").hide(1500);
+    $("#divSantiago").hide(1500);
+    $("#divBsAs").show(3000);
+}
+function mostrarSantiago(){
+    $("#contenedorPagina").hide(1500);
+    $("#divStaFe").hide(1500);
+    $("#divBsAs").hide(1500);
+    $("#divSantiago").show(3000);
+}
+function mostrarInicio(){
+    $("#divSantiago").hide(1500);
+    $("#divStaFe").hide(1500);
+    $("#divBsAs").hide(1500);
+    $("#contenedorPagina").show(3000);
+}
 function MostrarCartelito(){
     alert("Has hecho clic en el título");
 }

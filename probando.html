@@ -20,7 +20,7 @@
     <div class="collapse navbar-collapse" id="navbarsExample04">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="probando.html">Inicio <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#" id="menuInicio">Inicio <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="https://www.google.com">Google</a>
@@ -29,9 +29,9 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Provincias</a>
           <div class="dropdown-menu" aria-labelledby="dropdown04">
-            <a class="dropdown-item" href="provincias.html">Santa Fe</a>
-            <a class="dropdown-item" href="#">Buenos Aires</a>
-            <a class="dropdown-item" href="#">Santiago del estero</a>
+            <a class="dropdown-item" href="#" id="menuStaFe">Santa Fe</a>
+            <a class="dropdown-item" href="#" id="menuBsAs">Buenos Aires</a>
+            <a class="dropdown-item" href="#" id="menuSantiago">Santiago del Estero</a>
           </div>
         </li>
       </ul>
@@ -162,26 +162,28 @@ TD crea celdas -->
   </div>
 
 </div>
-  <div class="container-fluid"></div>
+  <div class="container-fluid" id="divStaFe">
     <h1>SANTA FE</h1>
     <hr/>
     <h2>Nuestra provincia</h2>
     <img src="img/santafe.jpg" width="20%"/>
     <a href="santafe.html">Santa Fe</a>
   </div>
-  <div class="container-fluid"></div>
+
+  <div class="container-fluid" id="divBsAs">
     <h1>BUENOS AIRES</h1>
     <hr/>
     <h2>La provincia más poblada</h2>
     <img src="img/buenosaires.jpg" width="20%"/>
     <a href="buenosaires.html">Buenos Aires</a>
   </div>
-  <div class="container-fluid"></div>
+
+  <div class="container-fluid" id="divSantiago">
     <h1>SANTIAGO DEL ESTERO</h1>
     <hr/>
     <h2>Una provincia del norte</h2>
     <img src="img/santiagodelestero.jpg" width="20%"/>
-    <a href="santafe.html">Santa Fe</a>
+    <a href="santiago.html">Santa Fe</a>
   </div>  
     <script src="js/jquery.js"  type="text/javascript"></script>
     <script src="js/bootstrap.js"  type="text/javascript"></script>

@@ -13,3 +13,6 @@ details {border: 1px solid green;}
 
 .textoimportante { font-size: 1.2em; 
                     font-weight: bold;}
+
+#divSantaFe, #divBsAs,#divSantiago,#contenedorPagina {display: none;}
+ 
