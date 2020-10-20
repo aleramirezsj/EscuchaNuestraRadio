@@ -1,0 +1,15 @@
+* {	color: black;}
+p,strong { color : green; }
+
+h1 { border-bottom: double 4px blue;
+    display: inline;}
+h2 { color : orange;
+    background-color: #ee32d5;
+    display: inline;
+}
+li strong {color : blue;}
+
+details {border: 1px solid green;}
+
+.textoimportante { font-size: 1.2em; 
+                    font-weight: bold;}
