@@ -15,4 +15,39 @@ details {border: 1px solid green;}
                     font-weight: bold;}
 
 #divSantaFe, #divBsAs,#divSantiago,#contenedorPagina {display: none;}
- 
+
+/*.tituloProvincia:hover  {
+	transform: rotate(7deg) rotateX(30deg) skewX(-5deg);
+	text-shadow: #999 0 4px 0px,
+				 #999 2px 9px 1px,
+				 #999 4px 12px 1px,
+				 #AAA 5px 13px 10px;
+	transition: -webkit-transform 1s linear, text-shadow 1s linear;
+}*/
+
+/*#divtitulo 
+{
+	cursor: pointer;
+	font-size: 3em;
+	margin: 0;
+	padding: 0.4em;
+	text-shadow: #eee 2px 2px 5px;
+	text-shadow: #aaa 2px 2px 5px;
+	-webkit-transition: -webkit-transform 1s linear, text-shadow 1s linear;
+}
+#divtitulo:hover 
+{
+    webkit-transform: rotate(7deg) rotateX(30deg) skewX(-5deg); 
+     text-shadow: #999 0 4px 0px, #999 2px 9px 1px, #999 4px 12px 1px, #AAA 5px 13px 10px; 
+     -webkit-transition: -webkit-transform 1s linear, text-shadow 1s linear;
+}*/
+#divtituloSantaFe {
+    border: 1px solid #ee32d5;
+    text-align: center;
+    transition: 1s ;
+}
+
+#divtituloSantaFe:hover {
+    transform: scale(1.2) ;
+}
+

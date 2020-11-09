@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de prueba</title>
+    <link rel="stylesheet" href="css/bootstrap.css"  type="text/css" /> 
     <link rel="stylesheet" href="css/estilos.css"  type="text/css" />
-    <link rel="stylesheet" href="css/bootstrap.css"  type="text/css" />
     <style>
         details {border: 1px solid red !important}
     </style>
 </head>
-<body>
+<body style="background-color:seagreen">
   <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <a class="navbar-brand" href="#">Sitio ISP20</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +40,7 @@
       </form>
     </div>
   </nav>
-    <div id="contenedorPagina" class="container-fluid">
+<div id="contenedorPagina" class="container-fluid">
       
     <h1 id="tituloPagina" 
         style="background-color:royalblue">
@@ -134,7 +134,6 @@ TD crea celdas -->
             <td>Gestión de proyectos de software</td>
             <td>Prácticas profesionalizantes</td>
         </tr>        
-         
       </tbody>
   </table>
 
@@ -160,31 +159,33 @@ TD crea celdas -->
       <span class="sr-only">Next</span>
     </a>
   </div>
-
 </div>
-  <div class="container-fluid" id="divStaFe">
-    <h1>SANTA FE</h1>
+
+<div class="container-fluid" id="divSantaFe"> 
+    <div id="divtituloSantaFe">
+      <h1 class="tituloProvincia">SANTA FE</h1>
+    </div>
     <hr/>
     <h2>Nuestra provincia</h2>
     <img src="img/santafe.jpg" width="20%"/>
     <a href="santafe.html">Santa Fe</a>
-  </div>
+</div>
 
-  <div class="container-fluid" id="divBsAs">
-    <h1>BUENOS AIRES</h1>
-    <hr/>
-    <h2>La provincia más poblada</h2>
-    <img src="img/buenosaires.jpg" width="20%"/>
-    <a href="buenosaires.html">Buenos Aires</a>
-  </div>
+<div class="container-fluid" id="divBsAs">
+  <h1 class="tituloProvincia">BUENOS AIRES</h1>
+  <hr/>
+  <h2>La provincia más poblada</h2>
+  <img src="img/buenosaires.jpg" width="20%"/>
+  <a href="buenosaires.html">Buenos Aires</a>
+</div>
 
-  <div class="container-fluid" id="divSantiago">
-    <h1>SANTIAGO DEL ESTERO</h1>
+<div class="container-fluid" id="divSantiago">
+    <h1 class="tituloProvincia">SANTIAGO DEL ESTERO</h1>
     <hr/>
     <h2>Una provincia del norte</h2>
     <img src="img/santiagodelestero.jpg" width="20%"/>
     <a href="santiago.html">Santa Fe</a>
-  </div>  
+</div>  
     <script src="js/jquery.js"  type="text/javascript"></script>
     <script src="js/bootstrap.js"  type="text/javascript"></script>
     <script src="js/codigo.js"  type="text/javascript"></script>
